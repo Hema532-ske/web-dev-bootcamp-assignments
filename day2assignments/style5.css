@@ -1,0 +1,28 @@
+.leftdiv {
+				font-size: 28px;
+                 color: white;
+                 background-color:green ;
+                 float: left;
+			}
+.middlediv {
+			font-size: 28px;
+            color: black;
+            background-color: grey;
+            float: left;
+			}
+.rightdiv {
+		font-size: 28px;
+        color: white;
+        background-color: green;
+        float: left;
+			}
+div {
+	padding: 1%;
+	color: white;
+	background-color: green;
+	width: 30%;
+	border: solid black;
+	}
+p {
+	text-align: justify;
+}
