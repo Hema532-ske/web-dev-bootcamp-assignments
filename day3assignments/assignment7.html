@@ -1,0 +1,26 @@
+<!--DROP DOWN-->
+<!doctype>
+	<html>
+		<head>
+			<title>Drop Down</title>
+		</head>
+		<body>
+			<label>Choose your favourite city</label>
+			<select id="city">
+				<option>Guntur</option>
+				<option>Chennai</option>
+				<option>Hyderabad</option>
+				<option>vijayawada</option>
+				<option>banglore</option>
+				<option>kolkata</option>
+			</select>
+			<button onclick="readdata()">Submit</button>
+			<p id="result"></p>
+			<script>
+				function readdata() {
+					var c=document.getElementById('city').value;
+					document.getElementById('result').innerHTML=c;
+				}
+			</script>
+		</body>
+	</html>

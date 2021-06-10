@@ -1,0 +1,37 @@
+<!--Fieldset-->
+<!doctype html>
+	<html>
+	<head>
+		<title>Fieldset tag Demo</title> 
+	</head>
+	<body>
+		<fieldset>
+			<legend>Details</legend>
+			Name:<input type="text" id="name" required/> <br/>
+			Aadharnumber:<input type="tel" id="Aadharnumber" disabled /><br/>
+			Address:<input type="text" id="adr" /><br/><br/>
+			<button onclick="readdata()">Submit</button>
+		</fieldset>
+        <table border="1">
+        	<tr>
+        		<th>Name</th>
+        		<th>Aadharnumber</th>
+        		<th>Address</th>
+        	</tr>
+
+        	<tr>
+        	<td id='klm'>NOt yet read</td>
+        	<td id="789-9087-543">NOt yet read</td>
+        	<td id="Guntur">Not yet read</td>
+        	</tr>	
+		<p id="result"></p>
+		<script>
+			function readdata() {
+				var name=document.getElementById('name').val;
+				var Aadharnumber=document.getElementById('Aadharnumber').val;
+				var Address=document.getElementById('Address').val;
+				document.getElementById('klm').innerHTML=
+			}
+		</script>
+	</body>
+	</html>
